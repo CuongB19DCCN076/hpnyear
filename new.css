@@ -1,0 +1,85 @@
+body {
+	padding: 0;
+    background-image: linear-gradient(to bottom, #130F40, #000000);
+    
+}
+h1{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #930cb4f3;
+    font-family: "Source Sans Pro";
+    font-size: 6em;
+    font-weight: 820;
+    -webkit-user-select: none;
+    user-select: none;
+}
+h2{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00fa92;
+    font-family: cursive;
+    font-size: 7.2em;
+    font-weight: 820;
+    -webkit-user-select: none;
+    user-select: none;
+}
+h3{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #930cb4f3;
+    font-family: "Source Sans Pro";
+    font-size: 7em;
+    font-weight: 820;
+    -webkit-user-select: none;
+    user-select: none;
+}
+h4{
+    position: absolute;
+    top: 88%;
+    right: 3%;
+    transform: translate(-50%, -50%);
+    color: #ffee06;
+    font-family: "Source Sans Pro";
+    font-size: 1.2em;
+    font-weight: 350;
+    -webkit-user-select: none;
+    user-select: none;
+}
+h5{
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00f798;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: 500;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.abccc{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.abccc div{
+    padding: 10px 20px;
+    background-color: #1d00f7;
+    color: white;
+    border: 1px solid #ffee06;
+    border-radius: 10px;
+}
