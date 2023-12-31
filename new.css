@@ -8,36 +8,91 @@ h1{
     top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #930cb4f3;
+    color: floralwhite;
     font-family: "Source Sans Pro";
     font-size: 6em;
     font-weight: 820;
     -webkit-user-select: none;
     user-select: none;
+    text-shadow: 10px 10px 20px rgba(255,255, 255, 0.5);
 }
 h2{
     position: absolute;
     top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #00fa92;
+    color: floralwhite;
     font-family: cursive;
     font-size: 7.2em;
     font-weight: 820;
     -webkit-user-select: none;
     user-select: none;
+    text-shadow: 10px 10px 20px rgba(255,255, 255, 0.5);
 }
 h3{
     position: absolute;
     top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #930cb4f3;
-    font-family: "Source Sans Pro";
-    font-size: 7em;
+    color: white;
+    font-family: cursive;
+    font-size: 9em;
     font-weight: 820;
     -webkit-user-select: none;
     user-select: none;
+    text-shadow: 10px 10px 20px rgba(255,255, 255, 0.5);
+
+}
+h3 u:nth-child(1){
+    color: #ffee06;
+    text-shadow: 10px 10px 20px rgba(255,255, 255, 0.5);
+}
+h3 u:nth-child(2){
+    color: deeppink;
+    text-shadow: 10px 10px 20px rgba(255,255, 255, 0.5);
+}
+h3 u:nth-child(3){
+    color: aqua;
+    text-shadow: 10px 10px 20px rgba(255,255, 255, 0.5);
+}
+h3 u:nth-child(4){
+    animation: colorChange 10s infinite;;
+    font-size: 1.4em;
+    text-shadow: 10px 10px 20px rgba(255,255, 255, 0.5);
+}
+@keyframes colorChange {
+    0% {
+        color: hsl(0, 100%, 50%);
+        text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    }
+    10% {
+        color: hsl(30, 100%, 50%);
+        text-shadow: 5px 5px 4px rgba(255, 165, 0, 0.5);
+    }
+    20% {
+        color: hsl(60, 100%, 50%);
+        text-shadow: 5px 5px 4px rgba(255, 255, 0, 0.5);
+    }
+    30% {
+        color: hsl(120, 100%, 50%);
+        text-shadow: 5px 5px 4px rgba(0, 128, 0, 0.5);
+    }
+    40% {
+        color: hsl(240, 100%, 50%);
+        text-shadow: 5px 5px 4px rgba(0, 0, 255, 0.5);
+    }
+    50% {
+        color: hsl(270, 100%, 50%);
+        text-shadow: 5px 5px 4px rgba(128, 0, 128, 0.5);
+    }
+    60% {
+        color: hsl(300, 100%, 50%);
+        text-shadow: 5px 5px 4px rgba(238, 130, 238, 0.5);
+    }
+    100% {
+        color: hsl(360, 100%, 50%);
+        text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    }
 }
 h4{
     position: absolute;
